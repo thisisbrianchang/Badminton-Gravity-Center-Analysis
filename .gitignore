@@ -1,0 +1,38 @@
+# Python cache and environments
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Local input videos and generated data
+data/input/*
+!data/input/.gitkeep
+data/frames/
+data/masks/
+outputs/*
+!outputs/.gitkeep
+frames_*/
+masks_*/
+output_video/
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Model weights / checkpoints
+*.pth
+*.pt
+*.ckpt
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

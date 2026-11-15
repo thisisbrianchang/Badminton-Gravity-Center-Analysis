@@ -1,0 +1,8 @@
+# Install PyTorch and Torchvision using the official selector for your OS/CUDA:
+# https://pytorch.org/get-started/locally/
+# Keep torch and torchvision versions compatible with each other.
+
+numpy>=1.24,<2.0
+opencv-python>=4.8,<5.0
+torch>=2.1
+torchvision>=0.16
